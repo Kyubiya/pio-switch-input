@@ -18,6 +18,7 @@ target_sources(pio_switch PRIVATE pio_switch.c)
 target_link_libraries(pio_switch PRIVATE
         pico_stdlib
         hardware_pio
+        hardware_dma
         )
 
 # enable usb output, disable uart output
