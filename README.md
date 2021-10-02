@@ -14,7 +14,9 @@ pins 31          ->                  0
 
 Returns shortened value where the least significant bit is first marked pin.
 
-Push bitmask into txr to poll inputs.
+Push bitmask into TXF to poll inputs.
+
+See DMA branch for automated transfers.
 
 Switches on inputs are wired to ground.
 

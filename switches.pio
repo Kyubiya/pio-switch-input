@@ -20,7 +20,6 @@ discard:
     jmp !y end          //end if bitmask is all 0
     jmp start           //go back
 end:
-
     push
 .wrap
 
